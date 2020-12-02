@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+int main()
+
+
+{
+int i;
+
+//printing the welcome note
+cout<<"\n\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n";
+cout<<"\t\t@@                                                                                         @@\n";
+cout<<"\t\t@@                                            		                                   @@\n";
+cout<<"\t\t@@                                                                     		           @@\n";
+cout<<"\t\t@@                                   WELCOME TO                                            @@\n";
+cout<<"\t\t@@                                                                                         @@\n";
+cout<<"\t\t@@                          IIIT HOSPITAL MANAGEMENT SEYTEM                                @@\n";
+cout<<"\t\t@@                                                                                         @@\n";
+cout<<"\t\t@@                                                                                         @@\n";
+cout<<"\t\t@@                                                                                         @@\n";
+cout<<"\t\t@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n\n\n\n";
+
+
+//giving option to the user for their choice
+cout<<"\t\tPlease,  Choose from the following Options: \n\n";
+cout<<"\t\t1 --> Add New Patient Record\n";
+cout<<"\t\t2 --> Add Diagnosis Information\n";
+cout<<"\t\t3 --> Know Full History of the Patient\n";
+cout<<"\t\t4 --> Information About the Hospital\n";
+cout<<"\t\t5 --> Exit from the Program\n\n";
+a:cout<<"\t\tGive your choice: ";cin>>i;
+if(i>5||i<1){cout<<"\n\n\t\tInvalid Choice\n";cout<<"\t\tTry again...........\n\n";goto a;} //if inputed choice is other than given choice
+
+//if(i==1)
+//{
+
+
+
+cout<<"\n";
+}
